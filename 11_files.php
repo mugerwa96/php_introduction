@@ -1,8 +1,9 @@
 <?php
 if(isset($_POST['submit'])){
-    // if(!empty($_FILES['upload']['name'])){
-        print_r($_FILES);
-    // }
+
+    if(!empty($_FILES['upload'])){
+        var_dump($_FILES);
+    }
 }
 ?>
 <!DOCTYPE html>
