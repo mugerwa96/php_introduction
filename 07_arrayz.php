@@ -37,6 +37,19 @@ $merged_array=array_merge($array1,$array2);
 
 
 // reating an array of numbers from 1 to 20
-$numbers=range(0,10);
-print_r($numbers);
+// $numbers=range(0,10);
+// print_r($numbers);
+
+
+// associative array
+$person=[
+        "name"=>"mugerwa",
+        "age"=>12,
+        "address"=>"kireka"
+    ];
+
+foreach($person as $key => $value)
+{
+    echo "$key:::::::$value <br>";
+}
 ?>
