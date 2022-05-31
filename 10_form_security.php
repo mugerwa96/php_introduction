@@ -17,7 +17,7 @@
 
     echo $name;
     ?>
-<!-- // look idf i past a script inside my form,it will work -->
+<!-- // look if i past a script inside my form,it will work -->
 <form action="<?php echo $_SERVER['PHP_SELF'];?>" method="POST">
 
 <label for="name">Name:</label>
